@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
@@ -19,4 +20,34 @@ body{
 .head-title{
   margin-top: 25px;
  color: #e0565B;
+}
+
+.hero-section{
+  margin-top: 50px;
+}
+
+.img-gallery{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 500px;
+}
+
+.img-gallery img {
+  width: 25%; /* Adjust the width of each image */
+  height: auto;
+  max-height: 100%; /* Maintain the aspect ratio */
+  margin: 5px; /* Add margin between images */
+  border-radius: 5px;
+}
+
+.hero-title{
+  margin-top: 25px;
+}
+
+.hero-text{
+  margin-top: 25px;
+  max-width: 500px;
 }
