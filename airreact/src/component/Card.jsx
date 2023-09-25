@@ -1,5 +1,5 @@
 import React from 'react';
-import image7 from '../images/atlet.jpg';
+import image7 from '../imagesTwo/atlet.jpg';
 
 export default function Card () {
     return (
